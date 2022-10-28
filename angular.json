@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "component-interaction"
+  "defaultProject": "component-interaction",
+  "cli": {
+    "analytics": "f5766767-59e9-453d-8da9-c3f44357ddd5"
+  }
 }

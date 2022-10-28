@@ -1,0 +1,7 @@
+<h1>Compoent A</h1>
+<p>Message from component B {{messageOfChild}}</p>
+
+<p *ngIf="message">{{message}}</p>
+
+<h1>Compoent B</h1>
+<app-component-b [childMessage]="parentMessage" (messageEvent)="receiveMessage($event)"></app-component-b>
